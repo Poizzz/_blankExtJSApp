@@ -10,7 +10,7 @@ Ext.define('App.controller.Controller', {
     requires: ['App.common.Tabs'],
     refs:[{ref: 'MainTabPanel', selector: 'viewport > #MainTabPanel'}],
 
-    title: 'Пример',
+    title: 'Example',
 
     LoadingMask: null,
     Panel: null,
@@ -22,7 +22,7 @@ Ext.define('App.controller.Controller', {
                 title : this.title,
                 layout: 'fit'
             }, false);
-        this.LoadingMask = new Ext.LoadMask(this.Panel, {msg:"Загрузка..."});
+        this.LoadingMask = new Ext.LoadMask(this.Panel, {msg:"Loading..."});
         this.control(App.common.Tabs.tabchange);
     },
 
