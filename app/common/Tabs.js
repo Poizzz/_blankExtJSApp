@@ -1,7 +1,7 @@
 Ext.define('App.common.Tabs', {
 	singleton: true,
 
-	//Получение закладки (если нет, то генерация)
+	// Get Tab for Controller (create new if it not exist)
 	getTab: function(TabPanel,config,setActive){
 		if(config['itemId'] == undefined ){
 			Utils.msg( "Error", 'Error in Controller panel configs', Ext.MessageBox.ERROR);
@@ -15,7 +15,7 @@ Ext.define('App.common.Tabs', {
 		return Panel;
 	},
 
-	//Контрол отслеживания переключения табов, для контроллеров
+	// Events for change controller tabs
 	tabchange : {
 		'viewport > #MainTabPanel': {
 			tabchange: function( tabPanel, newCard, oldCard, eOpts ){
