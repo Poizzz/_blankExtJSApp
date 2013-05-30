@@ -8,4 +8,4 @@ This is Blank ExtJs Application.
 
 2. Controllers can connecting with tab, and have method for event enable\disable tab.
 
-3. Sorry for English
+3. Sorry for my English
