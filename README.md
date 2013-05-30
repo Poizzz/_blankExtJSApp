@@ -2,7 +2,7 @@ _blankExtJSApp
 ==============
 
 
-This is Blank ExtJs Application.
+This is Blank Application for ExtJs 4.2.1.
 
 1. All controllers will be load after parse config.json file.
 
