@@ -11,6 +11,8 @@ Init app for extjs with:
 Install
 ---
 
+### Windows
+
 - Sencha CMD http://www.sencha.com/products/sencha-cmd/download/
 - Sencha SDK Tool http://www.sencha.com/products/sdk-tools/download
 - Ruby http://rubyinstaller.org/downloads/
