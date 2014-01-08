@@ -1,4 +1,5 @@
 Init app for extjs with:
+===
 
     PHP Ext.Direct backend
     Auth RPC 
@@ -8,15 +9,15 @@ Init app for extjs with:
     SenchaCMD deploy
 
 Install
+---
 
-Sencha CMD http://www.sencha.com/products/sencha-cmd/download/
-Sencha SDK Tool http://www.sencha.com/products/sdk-tools/download
-Ruby http://rubyinstaller.org/downloads/
+- Sencha CMD http://www.sencha.com/products/sencha-cmd/download/
+- Sencha SDK Tool http://www.sencha.com/products/sdk-tools/download
+- Ruby http://rubyinstaller.org/downloads/
+- Download Ext JS SDK  http://www.sencha.com/products/extjs/download/
 
-Download Ext JS SDK  http://www.sencha.com/products/extjs/download/
+Create symlink "ext" to extjs framework in project directory (FarManager - Alt+F6)
 
-create symlink "ext" to extjs framework in project directory (FarManager - Alt+F6)
-
-Deploy Windows
+### Deploy Windows
 
 Run _build.cmd

@@ -9,7 +9,7 @@ Ext.define('po.controller.Controller', {
     ],
 
     refs    : [
-        {ref: 'PanelContent', selector: 'viewport > #MainPanel > #PanelContent'},
+        {ref: 'PanelContent', selector: 'viewport > #MainPanel > #PanelContent'}
     ],
 
     Panel: null,
