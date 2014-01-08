@@ -18,6 +18,6 @@ Install
 
 Create symlink "ext" to extjs framework in project directory (FarManager - Alt+F6)
 
-### Deploy Windows
+### Deploy
 
-Run _build.cmd
+>sencha app build
