@@ -24,9 +24,7 @@ $api->setDefaults(array(
 $api->add([
 	'Utils',
     'Config',
-	'Auth',
-    'UpdateRM',
-    'UpdateWeb'
+	'Auth'
 ]);
 
 $api->output();

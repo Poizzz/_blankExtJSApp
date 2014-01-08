@@ -4,6 +4,16 @@ Ext.define('po.Application', {
     extend: 'Ext.app.Application',
     
     requires:[
+        'Ext.direct.*',
+        'Ext.data.*',
+
+        'Ext.panel.*',
+        'Ext.tab.Panel',
+        'Ext.toolbar.TextItem',
+        'Ext.layout.container.Fit',
+
+        'Ext.util.Cookies',
+        'Ext.util.Observable'
     ],
 
     uses: [
