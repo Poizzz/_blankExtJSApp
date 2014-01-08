@@ -1,23 +1,59 @@
-Ext.define('App.controller.Config', {
-    extend: 'Ext.app.Controller',   
+Ext.define('po.controller.Config', {
+    extend: 'Ext.app.Controller',
 
-    stores: ['Config'],
-    ConfData: null,
+    mixins: ['po.common.Utils'],
 
-    init: function() {
-        this.getConfigStore().on('load', function (store,operation,success) {
-            if(success){
-                this.ConfData = this.parceConfig(store);
-                this.application.fireEvent('ConfigStoreLoaded',this.ConfData);
+    Configs: {
+        'Main'   : null
+    },
+
+    start: function() {
+        var type = null;
+
+        app = {};
+        app.Config = {};
+
+        for (type in this.Configs) {
+            this.get(type);
+        }
+    },
+
+    get: function (type){
+        Ext.RPC.Config.get(
+            type,
+            { 
+                callback: function(data, e, a, b){
+                    if(data.success){
+                        this.prepare(this.parce(data.result, type)); 
+                    }
+                    else{
+                        this.msgErr(data.result);
+                    }
+                },
+                scope:this
             }
-            else Utils.msg("Error","Wrong settings of config file",Ext.MessageBox.ERROR);            
-        }, this);
+        );
+    }, 
 
-    },  
+    parce: function(records, type){ 
+        return {
+            'type' : type, 
+            'data' : records
+        };
+    },
 
-    //Config data from store
-    parceConfig: function(store){
-        return store.data.items[0].data;
+    prepare : function (input) {
+        var type = null;
+        
+        app.Config[input.type] = input.data;
+        delete this.Configs[input.type]; // удаляем как обработанный
+
+        // Стартуем только при получении всех Config
+        for (type in this.Configs)
+            return false;
+
+        this.fireEvent ('__ready');
+        
     }
 
 });

@@ -1,50 +1,30 @@
-/*
-* Blank for new Controller
-*/
-
-Ext.define('App.controller.Controller', {
+Ext.define('po.controller.Controller', {
     extend: 'Ext.app.Controller',
 
-    //stores: ['Controller.Store'],
-    //views: ['Controller.View'],
-    requires: ['App.common.Tabs'],
-    refs:[{ref: 'MainTabPanel', selector: 'viewport > #MainTabPanel'}],
+    stores: [
 
-    title: 'Example',
+    ],
+    views: [
+        'ControllerView'
+    ],
 
-    LoadingMask: null,
+    refs    : [
+        {ref: 'PanelContent', selector: 'viewport > #MainPanel > #PanelContent'},
+    ],
+
     Panel: null,
 
-    //Create panel for Controller (after Viewport created)
-    onLaunch: function() { 
-        this.Panel = App.common.Tabs.getTab(this.getMainTabPanel(), {
-                itemId: this.id,
-                title : this.title,
-                layout: 'fit'
-            }, false);
-        this.LoadingMask = new Ext.LoadMask(this.Panel, {msg:"Loading..."});
-        this.control(App.common.Tabs.tabchange);
+    init: function () {
+        //this.control();
     },
 
-    //Controller turn on
-    show: function(){
-        this.LoadingMask.show();
-        this.doSomething();
-    },
+    //После инициации app
+    afterInit: function() {
+        this.Panel = Ext.create( 'po.view.ControllerView', {} );
+        this.getPanelContent().add(this.Panel);
+        //Тут запуск логики
 
-    //Controller turn off (tab is not active)
-    hide: function (){
-        this.doSomethingElse();
-    },
+    }
 
-    //Method examples
-    doSomething: function(){ 
-        console.log('Controller is active');
-        this.LoadingMask.hide();
-    },
-
-    doSomethingElse: function(){ 
-        console.log('Controller is disable');
-    },
 
 });

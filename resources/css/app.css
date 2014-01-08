@@ -1,0 +1,32 @@
+.imgAccept {
+    background: url(../images/accept.png) center no-repeat !important;
+}
+.imgDelete {
+    background: url(../images/delete.gif) center no-repeat !important;
+}
+.imgEmpty {
+    background: url(../images/empty.png) center no-repeat !important;
+}
+.imgFull {
+    background: url(../images/full.png) center no-repeat !important;
+}
+
+.iconQuestion16 {
+    background-image: url(../images/question.png );
+}
+
+.iconExit16 {
+    background-image: url(../images/exit_gr.png );
+}
+
+.iconUpdate {
+    background-image: url(../images/update.gif) !important;
+}
+
+.iconUsers {
+    background-image: url(../images/users.png) !important;
+}
+
+.iconUploadFile {
+    background: url(../images/fileupload.png) no-repeat 0px !important;
+}

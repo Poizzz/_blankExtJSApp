@@ -1,18 +1,16 @@
-Ext.define('App.view.Viewport', {
+Ext.define('po.view.Viewport', {
     extend: 'Ext.container.Viewport',
-    layout: 'fit',
-    cls: 'noselect',
     
-    initComponent: function () {
-        Ext.apply(this, {
-            items: [{
-                xtype: 'tabpanel',
-                id: 'MainTabPanel',
-                //alias: 'widget.MainTabPanel'
-            }]       
-        });
+    requires:[
+        'Ext.layout.container.Fit',
+        'po.view.Main'
+    ],
 
-        this.callParent(arguments);
-    }
+    layout: {
+        type: 'fit'
+    },
     
+    items: [{
+        xtype: 'app-main'
+    }]
 });

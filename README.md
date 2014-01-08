@@ -1,11 +1,22 @@
-_blankExtJSApp
-==============
+Init app for extjs with:
 
+    PHP Ext.Direct backend
+    Auth RPC 
+    Config.file Load RPC
+    Statusbar and Hint window
+    Message Utils
+    SenchaCMD deploy
 
-This is Blank Application for ExtJs 4.2.1.
+Install
 
-1. All controllers will be load after parse config.json file.
+Sencha CMD http://www.sencha.com/products/sencha-cmd/download/
+Sencha SDK Tool http://www.sencha.com/products/sdk-tools/download
+Ruby http://rubyinstaller.org/downloads/
 
-2. Controllers can connecting with tab, and have method for event enable\disable tab.
+Download Ext JS SDK  http://www.sencha.com/products/extjs/download/
 
-3. Sorry for my English
+create symlink "ext" to extjs framework in project directory (FarManager - Alt+F6)
+
+Deploy Windows
+
+Run _build.cmd

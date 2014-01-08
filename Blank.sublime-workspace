@@ -1,0 +1,1254 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"for",
+				"for	JS - For loop"
+			],
+			[
+				"ms",
+				"msgWarn"
+			],
+			[
+				"Norsi",
+				"Norsi_config"
+			],
+			[
+				"fiel",
+				"field"
+			],
+			[
+				"direct",
+				"directFn"
+			],
+			[
+				"pse",
+				"pserver_id"
+			],
+			[
+				"file_ge",
+				"file_get_contents"
+			],
+			[
+				"conti",
+				"apd_continue"
+			],
+			[
+				"q",
+				"queue"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"heig",
+				"height"
+			],
+			[
+				"con",
+				"contents"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"get",
+				"getConfig"
+			],
+			[
+				"R",
+				"request"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app.js",
+			"settings":
+			{
+				"buffer_size": 1437,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/common/AuthRPC.js",
+			"settings":
+			{
+				"buffer_size": 1617,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controller/Login.js",
+			"settings":
+			{
+				"buffer_size": 1781,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/view/login/AuthForm.js",
+			"settings":
+			{
+				"buffer_size": 2090,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controller/Controller.js",
+			"settings":
+			{
+				"buffer_size": 534,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/view/ControllerView.js",
+			"settings":
+			{
+				"buffer_size": 143,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 5783 files for \"ViewportPanel\"\n\nC:\\http\\_blankExtJSApp\\app.js:\n   18          {ref: 'PanelMenu', selector: 'viewport > #MainPanel > #PanelMenu'},\n   19          {ref: 'PanelContent', selector: 'viewport > #MainPanel > #PanelContent'},\n   20:         {ref: 'StatusBar', selector: 'viewport > #ViewportPanel > #StatusBar'}\n   21      ],\n   22      \n\nC:\\http\\_blankExtJSApp\\app\\controller\\Login.js:\n    8      refs    : [\n    9          {ref: 'LoginForm', selector: 'loginWindow > #LoginForm'},\n   10:         {ref: 'ViewportPanel', selector: 'viewport > #ViewportPanel'}\n   11      ],\n   12  \n   ..\n   35                  click: this.login\n   36              },\n   37:             'viewport > #ViewportPanel > #StatusBar > #ExitButton' : {\n   38                  click: function (){\n   39                      this.Auth.logout();\n   ..\n   50  \n   51      showViewport: function () {\n   52:         this.getViewportPanel().show();\n   53  \n   54          if(this.LoginWindow !== null){\n   ..\n   62      showLoginForm: function () {\n   63          \n   64:         this.getViewportPanel().hide();\n   65  \n   66          this.LoginWindow = Ext.create('po.view.login.AuthForm',\n\n6 matches across 2 files\n\n\nSearching 5783 files for \"ViewportPanel\"\n\n0 matches across 0 files\n\n\nSearching 5783 files for \"showViewport\nshowViewport\nshowViewport\"\n\n0 matches across 0 files\n\n\nSearching 5783 files for \"showViewport\"\n\nC:\\http\\_blankExtJSApp\\app\\controller\\Login.js:\n   22              case \"Other\": //Other auth method\n   23              default:\n   24:                 this.showViewport();\n   25                  return;\n   26          }\n   27  \n   28:         this.Auth.on('__authOK', this.showViewport,  this);\n   29          this.Auth.on('__authNO', this.showLoginForm, this );\n   30          \n   ..\n   49      },\n   50  \n   51:     showViewport: function () {\n   52          this.getMainPanel().show();\n   53  \n\nC:\\http\\_blankExtJSApp\\Blank.sublime-workspace:\n   89  		},\n   90  		{\n   91: 			\"contents\": \"Searching 5783 files for \\\"ViewportPanel\\\"\\n\\nC:\\\\http\\\\_blankExtJSApp\\\\app.js:\\n   18          {ref: 'PanelMenu', selector: 'viewport > #MainPanel > #PanelMenu'},\\n   19          {ref: 'PanelContent', selector: 'viewport > #MainPanel > #PanelContent'},\\n   20:         {ref: 'StatusBar', selector: 'viewport > #ViewportPanel > #StatusBar'}\\n   21      ],\\n   22      \\n\\nC:\\\\http\\\\_blankExtJSApp\\\\app\\\\controller\\\\Login.js:\\n    8      refs    : [\\n    9          {ref: 'LoginForm', selector: 'loginWindow > #LoginForm'},\\n   10:         {ref: 'ViewportPanel', selector: 'viewport > #ViewportPanel'}\\n   11      ],\\n   12  \\n   ..\\n   35                  click: this.login\\n   36              },\\n   37:             'viewport > #ViewportPanel > #StatusBar > #ExitButton' : {\\n   38                  click: function (){\\n   39                      this.Auth.logout();\\n   ..\\n   50  \\n   51      showViewport: function () {\\n   52:         this.getViewportPanel().show();\\n   53  \\n   54          if(this.LoginWindow !== null){\\n   ..\\n   62      showLoginForm: function () {\\n   63          \\n   64:         this.getViewportPanel().hide();\\n   65  \\n   66          this.LoginWindow = Ext.create('po.view.login.AuthForm',\\n\\n6 matches across 2 files\\n\\n\\nSearching 5783 files for \\\"ViewportPanel\\\"\\n\\n0 matches across 0 files\\n\",\n   92  			\"settings\":\n   93  			{\n\n4 matches across 2 files\n",
+			"settings":
+			{
+				"buffer_size": 3395,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "app/view/Main.js",
+			"settings":
+			{
+				"buffer_size": 591,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "backend/inc/classes/Config.php",
+			"settings":
+			{
+				"buffer_size": 4014,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "backend/inc/classes/Base.php",
+			"settings":
+			{
+				"buffer_size": 941,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "backend/inc/classes/Auth.php",
+			"settings":
+			{
+				"buffer_size": 2784,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Readme.md",
+			"settings":
+			{
+				"buffer_size": 531,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/css/app.css",
+			"settings":
+			{
+				"buffer_size": 723,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 104.0,
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pake",
+				"Preferences: Browse Packages"
+			],
+			[
+				"Packe",
+				"Package Control: List Packages"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: #!/usr/bin/env"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: Install Package",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: Upgrade Package",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"Package Control: Add Repository",
+				"Package Control: Add Repository"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/http/_blankExtJSApp/app/Application.js",
+		"/C/http/_blankExtJSApp/app/controller/Config.js",
+		"/C/http/_blankExtJSApp/app/controller/Login.js",
+		"/C/http/_blankExtJSApp/config/config-main.json",
+		"/C/http/_blankExtJSApp/app/controller/Controller.js",
+		"/C/http/_blankExtJSApp/app/view/ControllerView.js",
+		"/C/http/_blankExtJSApp/index.html",
+		"/C/http/_blankExtJSApp/app/common/AuthRPC.js",
+		"/C/http/_blankExtJSApp/app/common/Utils.js",
+		"/C/http/_blankExtJSApp/Readme.md",
+		"/C/http/_blankExtJSApp/app/view/login/AuthForm.js",
+		"/C/http/_blankExtJSApp/backend/inc/classes/Config.php",
+		"/C/http/_blankExtJSApp/backend/inc/classes/Auth.php",
+		"/C/http/_blankExtJSApp/backend/api.php",
+		"/C/http/_blankExtJSApp/.hgignore",
+		"/C/http/_blankExtJSApp/.sencha/app/sencha.cfg",
+		"/C/http/planover.com/app/controller/Calendar.js",
+		"/C/http/planover.com/app/controller/Readme.md",
+		"/C/http/planover.com/app/Application.js",
+		"/C/http/planover.com/app/view/Statusbar.js",
+		"/C/http/planover.com/app/view/Viewport.js",
+		"/C/http/planover.com/index.html",
+		"/C/http/planover.com/app/view/Main.js",
+		"/C/http/norsi/129/www/dev_admin/app.js",
+		"/C/http/planover.com/app/store/CalendarStore.js",
+		"/C/http/planover.com/app/extend/ux/StatusBar.js",
+		"/C/http/planover.com/app.js",
+		"/C/http/planover.com/app/view/CalendarView.js",
+		"/C/http/planover.com/app/view/Calendar.js",
+		"/C/http/planover.com/app/store/Calendar.js",
+		"/C/http/planover.com/.hgignore",
+		"/C/http/planover.com/app/store/calendar.js",
+		"/C/http/planover.com/build.xml",
+		"/C/http/planover.com/extensible-1.6.0-rc.1/src/locale/extensible-lang-en_GB.js",
+		"/C/http/planover.com/extensible/lib/extensible-1.0-compat.js",
+		"/C/http/planover.com/resources/css/extensible-all.css",
+		"/C/http/planover.com/build/production/po/resources/css/statusbar.css",
+		"/C/http/planover.com/.sencha/app/sencha.cfg",
+		"/C/http/planover.com/bootstrap.js",
+		"/C/http/planover.com/bootstrap.css",
+		"/C/Users/Poizzz/AppData/Local/Temp/Rar$DI00.003/README.md",
+		"/C/http/planover.com/extensible-1.6.0-rc.1/src/locale/extensible-lang-en.js",
+		"/C/http/planover.com/extensible-1.6.0-rc.1/src/locale/extensible-lang-ro.js",
+		"/C/http/planover.com/extensible-1.5.2/examples/calendar/basic.js",
+		"/C/http/planover.com/extensible-1.6.0-rc.1/examples/calendar/basic.js",
+		"/C/http/planover.com/build/production/po/index.html",
+		"/C/http/planover.com/resources/css/app.css",
+		"/C/http/planover.com/build/production/po/resources/po-all.css",
+		"/C/http/planover.com/ext/packages/ext-theme-gray/build/resources/ext-theme-gray-all.css",
+		"/C/http/planover.com/ext/packages/ext-theme-gray/build/ext-theme-gray-all-debug.scss",
+		"/C/http/planover.com/ext/packages/ext-theme-gray/build/ext-theme-gray.js",
+		"/C/http/planover.com/extensible/lib/extensible-bootstrap.js",
+		"/C/http/planover.com/extensible/pkgs/calendar.js",
+		"/C/http/planover.com/extensible/pkgs/calendar-debug.js",
+		"/C/http/planover.com/extensible/src/Extensible.js",
+		"/C/http/planover.com/extensible/Extensible-config.js",
+		"/C/http/planover.com/extensible-1.5.2/README.md",
+		"/C/http/planover.com/build/production/po/app.js",
+		"/C/http/planover.com/extensible/src/calendar/dd/DragZone.js",
+		"/C/http/planover.com/extensible/pkgs/extensible-core.js",
+		"/C/http/planover.com/extensible/lib/extensible-all-debug.js",
+		"/C/http/planover.com/extensible/pkgs/extensible-core-debug.js",
+		"/C/http/planover.com/extensible/lib/extensible-all.js",
+		"/C/http/planover.com/extensible-1.5.2/docs/index.html",
+		"/C/http/project/app.js",
+		"/C/http/project/public/.sencha/app/sencha.cfg",
+		"/C/http/project/routes/index.js",
+		"/C/http/project/controllers/index.js",
+		"/C/http/project/views/index.ejs",
+		"/C/http/planover.com/.sencha/app/build.properties",
+		"/C/http/node/app.js",
+		"/C/http/project/public/ux/.sencha/app/build.properties",
+		"/C/http/planover.com/_dev/public/index.html",
+		"/C/http/node/routes/index.js",
+		"/C/http/node/controllers/index.js",
+		"/C/http/project/package.json",
+		"/C/http/node/views/index.ejs",
+		"/C/http/project/routes/user.js",
+		"/C/http/node/package.json",
+		"/C/http/planover.com/_dev/server/package.json",
+		"/C/http/node/lib/direct.js",
+		"/C/http/planover.com/_dev/public/app/common/DirectAPI.js",
+		"/C/http/planover.com/node_modules/extdirect/package.json",
+		"/C/http/planover.com/_dev/server/app.js",
+		"/C/http/planover.com/node_modules/extdirect/index.js",
+		"/C/http/planover.com/_dev/public/app/Application.js",
+		"/C/http/node/models/models.js",
+		"/C/http/planover.com/PO.sublime-project",
+		"/C/http/planover.com/node_modules/extdirect/lib/router.js",
+		"/C/http/planover.com/node_modules/extdirect/lib/api.js",
+		"/C/http/planover.com/_dev/app.js",
+		"/C/http/planover.com/_dev/node_modules/extdirect/lib/api.js",
+		"/C/http/planover.com/_dev/routes/index.js",
+		"/C/http/planover.com/_dev/views/layout.jade",
+		"/C/http/planover.com/_dev/node_modules/node-extjs4/README",
+		"/C/http/planover.com/_dev/node_modules/node-extjs4/examples/helloworld/app.js",
+		"/C/http/planover.com/_dev/views/index.jade",
+		"/C/http/planover.com/_dev/node_modules/extdirect/README.md",
+		"/C/http/planover.com/_dev/node_modules/node-extjs4/package.json",
+		"/C/http/planover.com/_dev/node_modules/node-extjs4/index.js",
+		"/C/http/planover.com/_dev/node_modules/node-extjs4/examples/helloworld/ext-node.js",
+		"/C/http/planover.com/_dev/package.json",
+		"/C/http/planover.com/_dev/public/.sencha/app/build.properties",
+		"/C/http/planover.com/_dev/server.js",
+		"/C/http/planover.com/node_modules/express/bin/express",
+		"/C/http/planover.com/dev/public/.sencha/app/build.properties",
+		"/C/http/planover.com/dev/public/index.html",
+		"/C/http/planover.com/dev/.sencha/app/build.properties",
+		"/C/http/planover.com/dev/index.html",
+		"/C/http/planover.com/deploy/public/index.html",
+		"/C/http/planover.com/.sencha/workspace/sencha.cfg",
+		"/C/http/planover.com/build/public/index.html",
+		"/C/http/planover.com/build/public/resources/po-all.css",
+		"/C/http/planover.com/dev/public/app.js",
+		"/C/http/planover.com/public/.sencha/workspace/sencha.cfg",
+		"/C/http/extjs/themes/NewbridgeGreen-extjs-theme-bootstrap-987ff4a/examples/kitchensink/index.html",
+		"/C/http/planover.com/dev_po/.sencha/app/sencha.cfg",
+		"/C/http/planover.com/dev_po/index.html",
+		"/C/http/extjs/themes/NewbridgeGreen-extjs-theme-bootstrap-987ff4a/README.md",
+		"/C/http/planover.com/dev_po/bootstrap.css",
+		"/C/http/planover.com/dev_po/resources/css/bootstrap/bootstrap.css",
+		"/C/http/extjs/themes/NewbridgeGreen-extjs-theme-bootstrap-987ff4a/examples/kitchensink/resources/config.rb",
+		"/C/http/extjs/themes/NewbridgeGreen-extjs-theme-bootstrap-987ff4a/examples/themes/index.html",
+		"/C/http/planover.com/dev_po-/.sencha/app/build.properties",
+		"/C/http/planover.com/dev_po/.sencha/app/build.properties",
+		"/C/http/norsi/129/www/dev_admin/.sencha/app/build.properties",
+		"/C/http/planover.com/po/.sencha/app/build.properties",
+		"/C/http/planover.com/sftp-config.json"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"C:\\http\\_blankExtJSApp",
+			"C:\\http\\planover.com",
+			"C:\\http\\norsi\\129\\www\\dev_ntpu\\service",
+			"C:\\http\\norsi\\129\\www\\dev_ntpu",
+			"C:\\http\\norsi\\129\\dev_ntpu",
+			"C:\\http\\norsi\\129\\dev_ntpu,C:\\http\\norsi\\129\\CI_CORE,*.php",
+			"C:\\http\\norsi\\129\\dev_ntpu,C:\\http\\norsi\\129\\CI_CORE",
+			"C:\\http\\norsi\\129\\dev_ntpu",
+			"C:\\http\\norsi\\129\\dev_stat,-ext-all.js",
+			"C:\\http\\norsi\\129\\dev_ntpu",
+			"C:\\http\\norsi\\129\\dev_stat,-ext-all.js",
+			"C:\\http\\norsi\\129\\dev_ntpu",
+			"C:\\http\\norsi\\129\\dev_stat,-ext-all.js",
+			"C:\\http\\norsi\\186\\jtsm-dev",
+			"C:\\http\\norsi\\129\\dev_stat,-ext-all.js",
+			"C:\\http\\norsi\\186\\jtsm-dev",
+			"C:\\http\\norsi\\129\\dev_stat,-ext-all.js",
+			"C:\\http\\norsi\\186\\jtsm-dev",
+			"C:\\http\\norsi\\129\\dev_stat,-ext-all.js",
+			"C:\\http\\norsi\\129\\dev_stat",
+			"\\\\dev7\\www\\dp\\dev7",
+			"C:\\http\\norsi\\129\\dev_ntpu",
+			"C:\\http\\norsi\\129\\dev_stat",
+			"C:\\http\\norsi\\129\\CI_CORE",
+			"C:\\http\\norsi\\129\\dev_ntpu",
+			"C:\\http\\norsi\\129\\dev_stat",
+			"C:\\http\\norsi\\129\\dev_ntpu",
+			"C:\\http\\norsi\\129\\dev_stat",
+			"C:\\http\\norsi\\129\\",
+			"C:\\http\\norsi\\129\\dev_stat",
+			"C:\\http\\norsi\\129\\dev_ntpu\\",
+			"C:\\http\\norsi\\129\\dev_ntpu\\,C:\\http\\norsi\\129\\CI_CORE",
+			"C:\\http\\norsi\\129\\dev_ntpu\\application\\views",
+			"C:\\http\\norsi\\129\\dev_ntpu\\,C:\\http\\norsi\\129\\CI_CORE",
+			"C:\\http\\norsi\\129\\dev_ntpu\\",
+			"C:\\http\\norsi\\129\\dev_ntpu\\application\\views",
+			"C:\\http\\norsi\\129\\dev_ntpu",
+			"C:\\http\\norsi\\129\\dev_stat",
+			"C:\\http\\norsi\\129\\stat\\",
+			"C:\\http\\norsi\\129\\rrdstat\\",
+			"C:\\http\\norsi\\129\\hmhi-pg\\",
+			"C:\\http\\norsi\\129\\hmhi-pg\\service",
+			"C:\\http\\norsi\\129\\rrdstat\\",
+			"X:\\dp\\dev7\\",
+			"X:\\dp\\dev7\\order",
+			"C:\\http\\norsi\\129\\rrdstat\\",
+			"C:\\http\\norsi\\129\\rrdstat\\backend\\deamon\\nt-social",
+			"C:\\http\\norsi\\129\\rrdstat",
+			"C:\\http\\norsi\\64\\hmhi-oci\\,*.js",
+			"C:\\http\\norsi\\64\\hmhi-oci\\,*.php",
+			"C:\\http\\norsi\\64\\hmhi-oci\\",
+			"C:\\http\\norsi\\64\\hmhi-oci\\,C:\\http\\norsi\\64\\CI_CORE",
+			"C:\\http\\norsi\\64\\hmhi-oci\\",
+			"C:\\http\\norsi\\64\\hmhi-oci\\ext",
+			"C:\\http\\norsi\\64\\hmhi-oci",
+			"C:\\http\\norsi\\64\\hm-hi",
+			"C:\\http\\norsi\\64\\hmhi-oci",
+			"C:\\http\\norsi\\129\\hmhi-pg\\",
+			"C:\\http\\norsi\\129\\rrdstat",
+			"X:\\dp\\dev7",
+			"C:\\http\\norsi\\129\\rrdstat",
+			"C:\\http\\norsi\\129\\hmhi-pg\\",
+			"C:\\http\\norsi\\64\\hmhi-oci",
+			"C:\\http\\norsi\\128",
+			"C:\\http\\norsi\\129\\hmhi-pg\\",
+			"C:\\http\\norsi\\129\\rrdstat",
+			"C:\\http\\norsi\\129\\hmhi-pg\\",
+			"C:\\http\\norsi\\129\\hmhi-pg\\,*.php",
+			"C:\\http\\norsi\\129\\hmhi-pg\\*.php",
+			"C:\\http\\norsi\\129\\hmhi-pg\\",
+			"X:\\dp\\dev7",
+			"C:\\http\\norsi\\64\\hmhi-oci",
+			"C:\\http\\norsi\\129\\hmhi-pg\\",
+			"C:\\http\\norsi\\129\\hmhi-pg\\sql2",
+			"C:\\http\\norsi\\129\\hmhi-pg",
+			"C:\\http\\norsi\\64\\hmhi-oci-deploy",
+			"X:\\dp\\dev7",
+			"C:\\http\\186\\jtsm-dev",
+			"Y:\\dp\\branches\\dev7",
+			"Y:\\dp\\branches\\dev7,-*.svn"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"logout",
+			"showViewport",
+			"showViewport\nshowViewport\nshowViewport",
+			"showViewport",
+			"ViewportPanel",
+			"admin",
+			"admin.Config",
+			"admin.Config\nadmin.Config",
+			"admin.Config",
+			"admin.common",
+			"\"",
+			"Exten",
+			"po.",
+			"app.",
+			"HintWindow",
+			"Календарь",
+			"admin",
+			"Statusbar",
+			"classpath",
+			"x-tbar-page-next",
+			"Drag",
+			"DragZone",
+			"Color",
+			"picker/Color",
+			"picker.Color",
+			"color",
+			"Defaults",
+			"defaults",
+			"Defaults",
+			"defaults",
+			"Defaults",
+			"defaults",
+			"suffix",
+			"bootstrap",
+			"includeScript",
+			"ExtRemote",
+			"workspace.dir",
+			"workspace",
+			"build",
+			"getPserver",
+			"test",
+			"self::$conn",
+			"CFG_NT_SERVER",
+			"$configxml",
+			"model",
+			"so",
+			"){\n",
+			"pserver",
+			"get_all_m",
+			"get_all",
+			"condition_list",
+			"config",
+			"\";\n",
+			"get_cond_abbr",
+			"COND_TYPES",
+			"COND_TYPE_URL",
+			"COND_TYPES",
+			"condition_type",
+			"ColumnOK",
+			"condition_type",
+			"pservers",
+			"pservers-cache",
+			"getPServsJSON",
+			"getFormTargAndCondAdd",
+			"Установка поискового правила",
+			"GetCondForm",
+			"VTypes",
+			"get_cond_form_fields",
+			"COND_FORM.type",
+			"COND_FORM",
+			"get_cond_form_fields",
+			"VTypes",
+			"condTypeStore",
+			"get_cond_form_fields",
+			"find_valid_cond_title",
+			"get_cond_form_fields",
+			"Тип критерия",
+			"url",
+			"pser",
+			"mo_a",
+			"HH12:MI:SS",
+			"timef",
+			"service_error",
+			"$card_mode_departments",
+			"$user_accessrights",
+			"$card_mode_departments",
+			"$conds",
+			"RIGHT_USER_EDIT",
+			"can_edit_user",
+			"get_cond",
+			"get_cond_string",
+			"get_cond",
+			"exist",
+			"get_cond_tree",
+			"\";\";\n",
+			"truncate",
+			"drop",
+			"drop table",
+			"drop t",
+			"$files",
+			"$cond_id",
+			"get_cond_flags",
+			"get_conds",
+			"SELECT",
+			"SELECT conds.mo_cond_id, parent_",
+			"delete",
+			"delete_cgroup",
+			"delete",
+			"db->delete",
+			"delete",
+			"pserver",
+			"SET",
+			"set",
+			"SET",
+			"set",
+			"setStatTable",
+			"mo_cond_stat",
+			"interfaces_seq",
+			"USER_SEQUENCES",
+			"SEQUENCE",
+			"_lettersBitsSec",
+			"metaData",
+			"doing",
+			"close()",
+			"close",
+			"pconnect",
+			"db_connect",
+			"_close"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"app.Config",
+			"fff",
+			"App.extend",
+			"Config['Monitor']",
+			"Config['Main']",
+			"$",
+			"<title>header_left_blue</title>"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app.js",
+					"settings":
+					{
+						"buffer_size": 1437,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								894,
+								891
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 108.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/common/AuthRPC.js",
+					"settings":
+					{
+						"buffer_size": 1617,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1179,
+								1179
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 486.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/controller/Login.js",
+					"settings":
+					{
+						"buffer_size": 1781,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1061,
+								1067
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 378.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/view/login/AuthForm.js",
+					"settings":
+					{
+						"buffer_size": 2090,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1539,
+								1548
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 432.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/controller/Controller.js",
+					"settings":
+					{
+						"buffer_size": 534,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								492,
+								492
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/view/ControllerView.js",
+					"settings":
+					{
+						"buffer_size": 143,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								143,
+								143
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 6,
+					"settings":
+					{
+						"buffer_size": 3395,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										302,
+										315
+									],
+									[
+										524,
+										537
+									],
+									[
+										563,
+										576
+									],
+									[
+										702,
+										715
+									],
+									[
+										914,
+										927
+									],
+									[
+										1077,
+										1090
+									],
+									[
+										1569,
+										1581
+									],
+									[
+										1686,
+										1698
+									],
+									[
+										1831,
+										1843
+									],
+									[
+										2901,
+										2913
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								1820,
+								1859
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"incomplete_sync": null,
+							"output_tag": 4,
+							"remote_loading": false,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"synced": false,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 288.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/view/Main.js",
+					"settings":
+					{
+						"buffer_size": 591,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								156,
+								156
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "backend/inc/classes/Config.php",
+					"settings":
+					{
+						"buffer_size": 4014,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "backend/inc/classes/Base.php",
+					"settings":
+					{
+						"buffer_size": 941,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								566,
+								484
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "backend/inc/classes/Auth.php",
+					"settings":
+					{
+						"buffer_size": 2784,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								989,
+								989
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 324.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "Readme.md",
+					"settings":
+					{
+						"buffer_size": 531,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "resources/css/app.css",
+					"settings":
+					{
+						"buffer_size": 723,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								723,
+								723
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.48893319826,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 61.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"mocarddi",
+				"application/libraries/mo_card_disp.php"
+			],
+			[
+				"rrd",
+				"extjs/ux/RrdDraw.js"
+			],
+			[
+				"monit",
+				"app/controller/monitor.js"
+			],
+			[
+				"param",
+				"app/controller/params.js"
+			],
+			[
+				"tab",
+				"app/common/Tabs.js"
+			],
+			[
+				"upda",
+				"app/common/UpdateData.js"
+			],
+			[
+				"copa",
+				"config/tpl/params.tpl"
+			],
+			[
+				"coma",
+				"config/config-main.json"
+			],
+			[
+				"corrd",
+				"app/controller/rrdstats.js"
+			],
+			[
+				"serv",
+				"backend/inc/classes/ServerData.php"
+			],
+			[
+				"instma",
+				"_install/config/config-main._json"
+			],
+			[
+				"instpara",
+				"_install/config/tpl/params._tpl"
+			],
+			[
+				"inscon",
+				"_install/config/config-main._json"
+			],
+			[
+				"moni",
+				"app/controller/monitor.js"
+			],
+			[
+				"tree",
+				"app/view/params/Tree.js"
+			],
+			[
+				"librr",
+				"lib/rrdgraph.js"
+			],
+			[
+				"rrdst",
+				"app/controller/rrdstats.js"
+			],
+			[
+				"conrr",
+				"app/controller/rrdstats.js"
+			],
+			[
+				"comm",
+				"app/common/UpdateData.js"
+			],
+			[
+				"conf",
+				"config/config-main.json"
+			],
+			[
+				"para",
+				"app/controller/params.js"
+			],
+			[
+				"mon",
+				"app/controller/monitor.js"
+			],
+			[
+				"moma",
+				"app/view/monitor/Main.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/http/norsi/Admin.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 327.0,
+	"status_bar_visible": true
+}
